@@ -1,0 +1,329 @@
+@font-face {
+    font-family: 'Bert Sans';
+    src: url('BertSans-BlackItalic.woff2') format('woff2'),
+        url('BertSans-BlackItalic.woff') format('woff');
+    font-weight: 900;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Bert Sans';
+    src: url('BertSans-Black.woff2') format('woff2'),
+        url('BertSans-Black.woff') format('woff');
+    font-weight: 900;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Bert Sans';
+    src: url('BertSans-Bold.woff2') format('woff2'),
+        url('BertSans-Bold.woff') format('woff');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Bert Sans';
+    src: url('BertSans-Thin.woff2') format('woff2'),
+        url('BertSans-Thin.woff') format('woff');
+    font-weight: 100;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Bert Sans';
+    src: url('BertSans-LightItalic.woff2') format('woff2'),
+        url('BertSans-LightItalic.woff') format('woff');
+    font-weight: 300;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Bert Sans';
+    src: url('BertSans-ExtraBold.woff2') format('woff2'),
+        url('BertSans-ExtraBold.woff') format('woff');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Bert Sans';
+    src: url('BertSans-ThinItalic.woff2') format('woff2'),
+        url('BertSans-ThinItalic.woff') format('woff');
+    font-weight: 100;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Bert Sans';
+    src: url('BertSans-SemiBoldItalic.woff2') format('woff2'),
+        url('BertSans-SemiBoldItalic.woff') format('woff');
+    font-weight: 600;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Bert Sans';
+    src: url('BertSans-ExtraLight.woff2') format('woff2'),
+        url('BertSans-ExtraLight.woff') format('woff');
+    font-weight: 200;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Bert Sans';
+    src: url('BertSans-ExtraBoldItalic.woff2') format('woff2'),
+        url('BertSans-ExtraBoldItalic.woff') format('woff');
+    font-weight: bold;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Bert Sans';
+    src: url('BertSans-BoldItalic.woff2') format('woff2'),
+        url('BertSans-BoldItalic.woff') format('woff');
+    font-weight: bold;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Bert Sans';
+    src: url('BertSans.woff2') format('woff2'),
+        url('BertSans.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Bert Sans';
+    src: url('BertSans-Light.woff2') format('woff2'),
+        url('BertSans-Light.woff') format('woff');
+    font-weight: 300;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Bert Sans';
+    src: url('BertSans-SemiBold.woff2') format('woff2'),
+        url('BertSans-SemiBold.woff') format('woff');
+    font-weight: 600;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Bert Sans';
+    src: url('BertSans-Italic.woff2') format('woff2'),
+        url('BertSans-Italic.woff') format('woff');
+    font-weight: normal;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Bert Sans';
+    src: url('BertSans-Medium.woff2') format('woff2'),
+        url('BertSans-Medium.woff') format('woff');
+    font-weight: 500;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Bert Sans';
+    src: url('BertSans-ExtraLightItalic.woff2') format('woff2'),
+        url('BertSans-ExtraLightItalic.woff') format('woff');
+    font-weight: 200;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Bert Sans';
+    src: url('BertSans-MediumItalic.woff2') format('woff2'),
+        url('BertSans-MediumItalic.woff') format('woff');
+    font-weight: 500;
+    font-style: italic;
+    font-display: swap;
+}
+
+html {
+    width: 100%;
+    height: 100%;
+    max-width: 100%;
+    max-height: 100%;
+    padding: 0;
+}
+body {
+    width: 100%;
+    height: 100%;
+    max-width: 100%;
+    max-height: 100%;
+    font-family: "Bert Sans";
+    margin: 0;
+}
+main {
+    display: flex;
+    width: 100%;
+    height: 100%;
+    max-width: 100%;
+    max-height: 100%;
+    margin: 0;
+
+}
+
+.cont {
+    padding: 0.7vh;
+    margin: auto auto;
+    width: 44vh;
+    height: 88vh;
+    
+    background: rgb(108, 151, 169);
+    background: linear-gradient(180deg, rgb(108, 151, 169) 0%, rgb(62, 102, 123) 100%);
+    border-radius: 3vh;
+    padding-bottom: 5vh;
+}
+.grid {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: repeat(7, 1fr);
+    grid-column-gap: 0px;
+    grid-row-gap: 0px;
+    grid-template-rows: 34.375% 10.9375% 10.9375% 10.9375% 10.9375% 10.9375% 10.9375%;
+    height: 100%;
+    width: 100%;
+}
+.btn, .delete {
+    border: none;
+    border-radius: 5px;
+    margin: 1vh;
+    align-items: center;
+    justify-items: center;
+    align-content: center;
+    justify-content: center;
+    display: flex;
+}
+.btn svg {
+    margin: auto auto;
+    display: flex;
+    width: 30%;
+    height: 30%;
+}
+#recip {
+    width: 40%;
+    height: 40%;
+}
+#ac {
+    width: 35%;
+    height: 35%;
+}
+#delete {
+    height: 36%;
+    width: 36%;
+}
+
+div1 { 
+    grid-area: 6 / 1 / 7 / 2; 
+}
+div2 { 
+    grid-area: 6 / 2 / 7 / 3; 
+}
+div3 { 
+    grid-area: 6 / 3 / 7 / 4; 
+}
+div4 { 
+    grid-area: 5 / 1 / 6 / 2; 
+}
+div5 { 
+    grid-area: 5 / 2 / 6 / 3; 
+}
+div6 { 
+    grid-area: 5 / 3 / 6 / 4; 
+}
+div7 { 
+    grid-area: 4 / 1 / 5 / 2; 
+}
+div8 { 
+    grid-area: 4 / 2 / 5 / 3; 
+}
+div9 { 
+    grid-area: 4 / 3 / 5 / 4; 
+}
+div10 { 
+    grid-area: 3 / 1 / 4 / 2; 
+}
+div11 { 
+    grid-area: 3 / 2 / 4 / 3; 
+}
+div12 { 
+    grid-area: 3 / 3 / 4 / 4; 
+}
+div13 { 
+    grid-area: 2 / 1 / 3 / 2; 
+}
+div14 { 
+    grid-area: 2 / 2 / 3 / 3; 
+}
+div15 { 
+    grid-area: 2 / 3 / 3 / 4; 
+}
+div16 { 
+    grid-area: 7 / 1 / 8 / 2; 
+}
+div0 { 
+    grid-area: 7 / 2 / 8 / 3; 
+}
+div18 { 
+    grid-area: 7 / 3 / 8 / 4; 
+}
+div19 { 
+    grid-area: 7 / 4 / 8 / 5;
+}
+div20 { 
+    grid-area: 6 / 4 / 7 / 5;
+}
+div21 { 
+    grid-area: 5 / 4 / 6 / 5;
+}
+div22 { 
+    grid-area: 4 / 4 / 5 / 5; 
+}
+div23 { 
+    grid-area: 3 / 4 / 4 / 5; 
+}
+div24 { 
+    grid-area: 2 / 4 / 3 / 5; 
+}
+div25 { 
+    grid-area: 1 / 1 / 2 / 5; 
+    display: flex;
+    flex-direction: column;
+}
+#top-calcs {
+    height: 60%;
+    width: 100%;
+    text-align: right;
+    color: #cccccc;
+    padding-top: 39%;
+}
+#answerbox {
+    height: 40%;
+    width: 100%;
+    text-align: right;
+    font-weight: 600;
+    font-size: 8vh;
+    color: white;
+}
